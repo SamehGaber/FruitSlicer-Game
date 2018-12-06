@@ -1,0 +1,152 @@
+html{
+    background: radial-gradient(circle,#fff,#ccc);
+}
+
+
+#container{
+    
+   width:800px;
+   border:1px solid grey;
+   border-radius: 10px;
+   height:550px;
+   margin:20px auto;
+   background-color:#9DD2EA;
+    padding:20px;
+    box-shadow: 4px 4px 10px 0px #009DE4;
+}
+#score{ 
+
+   width:60px;
+   height:40px;
+   border-radius: 10px;
+    position:absolute;
+    left:800px;
+    padding:10px;
+    background-color: #F1FF92;
+    text-align: center;
+    display: none;
+
+}
+#correct{
+    width:50px;
+   height:20px;
+   border-radius: 5px;
+   left:450px;
+    position: absolute;
+    padding:10px;
+    background-color: green;
+    text-align: center;
+/*    visibility: hidden;*/
+     display:none;
+}
+
+
+#wrong{
+    
+    width:50px;
+   height:20px;
+   border-radius: 5px;
+   left:450px;
+    position: absolute;
+    padding:10px;
+    background-color: red;
+    text-align: center;
+/*    visibility: hidden;*/
+    display:none;
+}
+#fruitContainer{
+    
+    width:700px;
+    height:350px;
+    margin:70px 70px 10px 70px;
+    background-color: white;
+    text-align: center;
+    font-size:80px;
+    font-family: cursive;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden; 
+/*    that means any fruit out side fruit container will be hidden*/
+    }
+
+#instruction{
+     width:380px;
+    height:40px;
+    padding: 10px;
+    margin:10px 200px 0px 200px;
+    text-align: center;
+    background-color: #B481D9;
+    border-radius: 4px;
+    
+}
+
+#startreset{
+    
+     width:80px;
+     height:30px;
+     border-radius: 5px;
+     margin-left:350px;
+    margin-top: 5px;
+     background-color: wheat;
+     float:left;
+    text-align: center;
+    line-height: 20px;
+    box-shadow:0px 4px rgba(0,0,0,0.2);
+    position: relative;
+    transition: all 0.5s;
+}
+#startreset:active{
+    box-shadow: 0px 0px #B481D9;
+    background-color: #B481D9;
+    top:4px;
+}
+
+#trialsLeft{
+    
+    width:150px;
+     height:30px;
+     border-radius: 5px;
+    margin-right: 10px;
+     background-color:#AFE64B;
+    text-align: center;
+    line-height: 20px;
+    display:none;
+    position: absolute;
+    top:60px;
+}
+
+#gameover{
+    width:500px;
+     height:250px;
+     border-radius: 5px;
+    margin: 0px auto;
+     background-color:orangered;
+    text-align: center;
+    line-height: 40px;
+    color:white;
+    text-transform: uppercase;
+    position: absolute;
+    top:150px; 
+    left: 270px;
+    z-index: 1;
+  display:none;
+    
+
+    
+    
+}
+
+
+.life{
+    
+    height:16px;
+    width:16px;
+    margin: 5px 5px;
+    
+}
+.fruit{
+   display: none;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
